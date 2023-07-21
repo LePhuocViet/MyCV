@@ -1,0 +1,49 @@
+@media (min-width: 1024px){
+
+}
+@media (min-width: 720px ) and (max-width: 1024px){
+    #header .nav{
+        padding: 0 90px;
+    }
+    #content .content-list{
+        margin: 0 90px;
+    }
+    .content-list .content-infor {
+        padding-left: 60px;
+    }
+    .content-about .about-infor {
+        padding-left: 60px;
+    }
+    .about-infor-ipar{
+        padding-left: 10px;
+    }
+
+}
+@media (max-width: 720px){
+    #header .nav{
+        padding: 0px;
+}
+#content .content-list{
+    margin: 0px;
+    display: initial    ;
+}
+.content-infor{
+    display: none;
+}
+.content-about .about-list{
+    display: initial;
+    
+}
+.content-about .about-content {
+    padding-bottom: 20px;
+}
+.about-infor-ipar{
+    padding-left: 10px;
+}
+.content-about .about-infor{
+    padding-left: 25px;
+}
+.skill-percent progress{
+    width: 235px;
+}
+}
